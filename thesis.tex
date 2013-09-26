@@ -1,23 +1,15 @@
-\newcommand{\msepath}{..}
-\documentclass[major=tic, type=thesis, confidential=false, lang=en, path=\msepath, twoside]{\msepath/mse-thesis}
-
-\usepackage{lipsum}
-
+\newcommand{\msepath}{.}
+\documentclass[major=tic, type=thesis, confidential=false, lang=en, path=\msepath, twoside]{mse-thesis}
 
 \title{\LaTeX\ Thesis Template}
 \author{Nicolas Jakob}{nicolas.jakob@master.hes-so.ch}       
 \professor{Prof. John Doe}{john.doe@nowhere.com}{HES-SO}
 \expert{Prof. John Doe}{john.doe@nowhere.com}{HES-SO}
-\proposedby{Nicolas Jakob}{nicolas.jakob@master.hes-so.ch}{HES-SO}
-\advisor{Prof. John Doe}
-\headofmse{Fariba Moghaddam Bützberger}
-
+\supervisor{Prof. John Doe}{john.doe@nowhere.com}{HES-SO}
+\version{Draft 1.0}
 
 % information for students where project takes place abroad - simply remove
 % these lines else
-\supervisor{Prof. John Doe}{john.doe@nowhere.com}{HES-SO}
-\institute{Institute which is aboard}{HES-SO}
-
 
 \begin{document}
 
@@ -38,9 +30,7 @@
    \pagenumbering{arabic}
    
    \input{chapters/introduction}
-   \input{chapters/researches}
-   \input{chapters/results}
-   \input{chapters/experimenting}
+   % \input{chapters/file}
    \input{chapters/conclusion}
 
    % Bibliography & Lists #####################################################

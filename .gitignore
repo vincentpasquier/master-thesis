@@ -13,3 +13,6 @@
 *.sublime-workspace
 *.synctex.gz
 *.toc
+
+Output
+thesis.pdf
